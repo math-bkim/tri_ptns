@@ -3,7 +3,7 @@
 """
 Created on Sat Sep 12 16:57:41 2020
 
-@author: byungchan
+@author: bkim
 """
 
 def S3act(ptn):
@@ -111,17 +111,12 @@ class xi_map:
         
         elif [j, k] == [6,2]:
             
-            #for a in pre:
-            #    if 1 in a:
-            #        a.remove(1)
             pi, mu, la = self.triple_order([pi, mu, la])
             if 1 in pi:
                 pi.remove(1)
                 pi[0] +=2
             else:
                 pi.append(1)
-            #pi[0] +=2
-            #la += [1]
             return [pi, mu, la]
         
         elif [j, k] == [3,2]:

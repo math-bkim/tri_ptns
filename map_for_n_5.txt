@@ -1,0 +1,29 @@
+The map xi on O_3/S_3(5) to O_3/S_3(6)
+==============================
+The images are in the codomain
+The map xi is injective.
+The detailed map is...
+
+    
+    Partition [[3, 1], [1], []] 
+    (in TD_{6, 2})
+    maps to 
+    [[5], [1], []]
+    (in TD_{6, 1})
+                      
+
+    
+    Partition [[3], [1], [1]] 
+    (in TD_{3, 2})
+    maps to 
+    [[3, 1], [1], [1]]
+    (in TD_{3, 3})
+                      
+
+    
+    Partition [[5], [], []] 
+    (in TD_{3, 0})
+    maps to 
+    [[5, 1], [], []]
+    (in TD_{3, 1})
+                      
